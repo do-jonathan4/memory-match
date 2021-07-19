@@ -1,0 +1,78 @@
+body {
+  background-image: url(assets/images/food-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.txt-center {
+  text-align: center;
+}
+
+.height {
+  height: 13%;
+  font-size: 30px;
+  line-height: 100px;
+  margin: 3%;
+}
+.bg-blue {
+  background-color: lightcyan;
+}
+.modal {
+  position: fixed;
+  display: flex;
+  background-color: rgba(50, 50, 50, .5);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card {
+  margin: .1%;
+  margin-bottom: 5%;
+  position: relative;
+}
+.card-front, .card-back {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+.card-back {
+  background-image: url(assets/images/food-card.jpg)
+}
+.apple-logo {
+  background-image: url(assets/images/apple-logo.jpg)
+}
+.banana-logo {
+  background-image: url(assets/images/banana-logo.jpg)
+}
+.cherry-logo {
+  background-image: url(assets/images/cherry-logo.jpg)
+}
+.coconut-logo {
+  background-image: url(assets/images/coconut-logo.jpg)
+}
+.manadrin-logo {
+  background-image: url(assets/images/manadrin-logo.jpg)
+}
+.melon-logo {
+  background-image: url(assets/images/melon-logo.jpg)
+}
+.orange-logo {
+  background-image: url(assets/images/orange-logo.jpg)
+}
+.peach-logo {
+  background-image: url(assets/images/peach-logo.jpg)
+}
+.pineapple-logo {
+  background-image: url(assets/images/pineapple-logo.jpg)
+}
+.hidden {
+  display: none;
+}

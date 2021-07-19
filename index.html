@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Johns Memory Match</title>
+</head>
+<link rel="stylesheet" href="grid.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div class="container">
+    <div class="row">
+      <header class="col-12 txt-center bg-tan">
+        <h1>Food Memory Match</h1>
+      </header>
+    </div>
+    <div class="row bg-tan">
+      <aside class="col-2 txt-center">
+        <div class="height bg-blue">Stats</div>
+        <div class="height bg-blue">Games Played</div>
+        <div class="height bg-blue" id="gamesPlayedNum">0</div>
+        <div class="height bg-blue">Attempts</div>
+        <div class="height bg-blue" id="attNum">0</div>
+        <div class="height bg-blue">Accuracy</div>
+        <div class="height bg-blue" id="accuracyNum">0%</div>
+      </aside>
+      <main class="row col-10 bg-tan" id='gameCards'>
+
+      </main>
+    </div>
+  </div>
+  <div class="modal hidden">
+    <div>
+      <h1>You Have Won</h1>
+    </div>
+    <div>
+      <button id="resetButton">Restart Game</button>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
