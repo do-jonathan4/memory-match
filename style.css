@@ -1,5 +1,5 @@
 body {
-  background-image: url(assets/images/food-background.jpg);
+  background-color: lightsteelblue;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,10 +7,12 @@ body {
 .txt-center {
   text-align: center;
 }
-
+* {
+  font-family: 'Roboto Slab', serif;
+}
 .height {
   height: 13%;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 100px;
   margin: 3%;
 }
