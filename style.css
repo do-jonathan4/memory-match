@@ -13,7 +13,8 @@ body {
 .height {
   height: 13%;
   font-size: 1.5rem;
-  line-height: 100px;
+  line-height: 300%;
+  overflow: hidden;
   margin: 3%;
 }
 .bg-blue {
