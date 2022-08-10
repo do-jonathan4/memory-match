@@ -11,8 +11,7 @@ var gamesPlayed = 0;
 var gamesPlayedNum = document.getElementById('gamesPlayedNum')
 var attNum = document.getElementById('attNum')
 var accuracyNum = document.getElementById('accuracyNum')
-//fix hidden cards
-var hiddenCards = document.querySelectorAll('.card-back')
+var hiddenCards;
 var modal = document.querySelector('.modal')
 var resetButton = document.getElementById('resetButton')
 var cardList = [
@@ -109,8 +108,7 @@ function resetGame () {
   modal.classList.add('hidden')
 }
 function resetCards () {
-  console.log('hello')
-  console.log(hiddenCards.length)
+  hiddenCards = document.querySelectorAll('.card-back')
   for (var i = 0; i < hiddenCards.length; i++) {
     hiddenCards[i].classList.remove('hidden')
   }
