@@ -5,13 +5,13 @@ var firstCardClasses;
 var secondCardClasses;
 var maxMatches = 9;
 var matches = 0;
-var maxAttempts = 10;
+var maxAttempts = 5;
 var attempts = 0;
 var gamesPlayed = 0;
 var gamesPlayedNum = document.getElementById('gamesPlayedNum')
 var attNum = document.getElementById('attNum')
 var accuracyNum = document.getElementById('accuracyNum')
-var hiddenCards = document.querySelectorAll('.card-back')
+var hiddenCards;
 var modal = document.querySelector('.modal')
 var resetButton = document.getElementById('resetButton')
 var cardList = [
@@ -108,6 +108,7 @@ function resetGame () {
   modal.classList.add('hidden')
 }
 function resetCards () {
+  hiddenCards = document.querySelectorAll('.card-back')
   for (var i = 0; i < hiddenCards.length; i++) {
     hiddenCards[i].classList.remove('hidden')
   }
