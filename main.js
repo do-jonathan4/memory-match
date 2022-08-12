@@ -5,7 +5,7 @@ var firstCardClasses;
 var secondCardClasses;
 var maxMatches = 9;
 var matches = 0;
-var maxAttempts = 5;
+var maxAttempts = 10;
 var attempts = 0;
 var gamesPlayed = 0;
 var gamesPlayedNum = document.getElementById('gamesPlayedNum')
